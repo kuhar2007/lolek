@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER Vadim Kuharenko <kuhar2007@ya.ru>
-RUN echo 'Hello Lolek!' \
+MAINTAINER Vadim Kuharenko
+RUN echo 'Hello User2!' \
         >/usr/share/nginx/html/index.html
 
